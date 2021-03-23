@@ -1,9 +1,13 @@
 import io
-from DaisyX import telethn as borg
+
 import requests
+
+from DaisyX import telethn as borg
 from DaisyX.events import register
 
 SCREEN_SHOT_LAYER_ACCESS_KEY = "ed5c9f4f66729019d4a0ec6bdcabd5bd"
+
+
 @register(pattern="^/sshot (.*)")
 async def _(event):
     if event.fwd_from:
@@ -16,7 +20,7 @@ async def _(event):
             SCREEN_SHOT_LAYER_ACCESS_KEY, input_str, "1", "2220x1080", "PNG", "1"
         )
     )
-    lel = ("GRAND_OFFICIAL")
+    lel = "GRAND_OFFICIAL"
     # https://stackoverflow.com/a/23718458/4723940
     contentType = response_api.headers["content-type"]
     if "image" in contentType:

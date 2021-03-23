@@ -69,22 +69,14 @@ An Advanced Telegram Group Management Bot For All Your Needs !!
 """
 
 
-
 buttons = [
     [
         InlineKeyboardButton(text="Help & Commands ❔", callback_data="help_back"),
-        
     ],
-
     [
-        InlineKeyboardButton(
-            text="Support 🔧", url="t.me/Innexiasupport"
-        ),
-        InlineKeyboardButton(
-            text="Updates 📢", url="t.me/InnexiaUpdates"
-        ),
+        InlineKeyboardButton(text="Support 🔧", url="t.me/Innexiasupport"),
+        InlineKeyboardButton(text="Updates 📢", url="t.me/InnexiaUpdates"),
     ],
-
     [
         InlineKeyboardButton(
             text="Add To Group 👥", url="t.me/Innexiabot?startgroup=true"
@@ -103,7 +95,9 @@ HELP_STRINGS = f"""
 )
 
 
-DONATE_STRING = """Hey 👋 u can make a donation to innexia bot join us @InnexiaDonate !"""
+DONATE_STRING = (
+    """Hey 👋 u can make a donation to innexia bot join us @InnexiaDonate !"""
+)
 
 
 IMPORTED = {}
@@ -184,10 +178,6 @@ def test(update, context):
     print(update.effective_message)
 
 
-
-
-
-        
 @run_async
 def start(update: Update, context: CallbackContext):
     args = context.args
@@ -384,11 +374,7 @@ def DaisyX_about_callback(update, context):
                             text="T & C", callback_data="aboutmanu_tac"
                         ),
                     ],
-                    [
-                        InlineKeyboardButton(
-                            text="Help", callback_data="help_back"
-                        )
-                    ],
+                    [InlineKeyboardButton(text="Help", callback_data="help_back")],
                     [InlineKeyboardButton(text="Back", callback_data="aboutmanu_back")],
                 ]
             ),

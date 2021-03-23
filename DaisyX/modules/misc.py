@@ -643,7 +643,7 @@ def stats(update, context):
 # *➩Covid:*
 # ✪ /covid :To get Global data.
 # ✪ /covid <country>:To get data of a country.
- 
+
 # *➩Paste:*
 # ✪ /paste: Create a paste or a shortened url using dogbin. *From letters to url.*
 # ✪ /getpaste: Get the content of a paste or shortened url from dogbin

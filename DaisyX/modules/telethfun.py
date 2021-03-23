@@ -3,8 +3,6 @@ import os
 from asyncio import sleep
 from datetime import datetime
 
-import html2text
-import requests
 from bing_image_downloader import downloader
 from requests import get, post
 from telethon.tl import functions, types
@@ -44,7 +42,8 @@ async def is_register_admin(chat, user):
     else:
         return None
 
-'''
+
+"""
 @register(pattern="^/gs (.*)")
 async def _(event):
     if event.fwd_from:
@@ -73,7 +72,9 @@ async def _(event):
         "{}".format(output_str), link_preview=False, parse_mode="Markdown"
     )
 
-'''
+"""
+
+
 @register(pattern="^/img (.*)")
 async def img_sampler(event):
     if event.fwd_from:
