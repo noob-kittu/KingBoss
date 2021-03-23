@@ -81,9 +81,7 @@ buttons = [
         InlineKeyboardButton(
             text="Add To Group 👥", url="t.me/deekingbot?startgroup=true"
         ),
-        InlineKeyboardButton(
-            text="Owner 🤴", url="t.me/kingcheckmate"
-        ),
+        InlineKeyboardButton(text="Owner 🤴", url="t.me/kingcheckmate"),
     ],
 ]
 
@@ -98,9 +96,7 @@ HELP_STRINGS = f"""
 )
 
 
-DONATE_STRING = (
-    """Hey 👋 u can make a donation to King bot join us @KingDonate !"""
-)
+DONATE_STRING = """Hey 👋 u can make a donation to King bot join us @KingDonate !"""
 
 
 IMPORTED = {}
