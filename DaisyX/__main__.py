@@ -63,7 +63,7 @@ from DaisyX.modules.helper_funcs.misc import paginate_modules
 from DaisyX.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hello 👋 There, I'm [innexia](https://telegra.ph/file/c61e0caa74707d86aef70.jpg)
+Hello 👋 There, I'm [ ै͜⃟👑 🅺🅸🅽🅶 ̶͟🍕 ❰ 💔 ! ](https://telegra.ph/file/b89bdf00bb2dccf4afb51.jpg)
 
 An Advanced Telegram Group Management Bot For All Your Needs !!
 """
@@ -74,12 +74,15 @@ buttons = [
         InlineKeyboardButton(text="Help & Commands ❔", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="Support 🔧", url="t.me/Innexiasupport"),
-        InlineKeyboardButton(text="Updates 📢", url="t.me/InnexiaUpdates"),
+        InlineKeyboardButton(text="FEDERATION 🔧", url="t.me/KING_FEDERATION"),
+        InlineKeyboardButton(text="Updates 📢", url="t.me/KING_FEDERATION_UPDATES"),
     ],
     [
         InlineKeyboardButton(
-            text="Add To Group 👥", url="t.me/Innexiabot?startgroup=true"
+            text="Add To Group 👥", url="t.me/deekingbot?startgroup=true"
+        ),
+        InlineKeyboardButton(
+            text="Owner 🤴", url="t.me/kingcheckmate"
         ),
     ],
 ]
@@ -88,7 +91,7 @@ buttons = [
 HELP_STRINGS = f"""
 *SETTINGS*
 ✪ Select one of the settings that you want to change!
-✪ Join Support Group @InnexiaSupport!
+✪ Join Support Group @KingSupport!
 """.format(
     dispatcher.bot.first_name,
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
@@ -96,7 +99,7 @@ HELP_STRINGS = f"""
 
 
 DONATE_STRING = (
-    """Hey 👋 u can make a donation to innexia bot join us @InnexiaDonate !"""
+    """Hey 👋 u can make a donation to King bot join us @KingDonate !"""
 )
 
 
@@ -475,7 +478,7 @@ def DaisyX_about_callback(update, context):
             f"\n✪ If you need to ask anything about \n  this bot, Go @{SUPPORT_CHAT}."
             f"\n✪ If you asking nonsense in Support \n  Chat, you will get warned/banned."
             f"\n✪ All api's we used owned by originnal authors \n  Some api's we use Free version \n  Please don't overuse AI Chat."
-            f"\n✪ We don't Provide any support to forks,\n  So these terms and conditions not applied to forks \n  If you are using a fork of Innexia bot we are not resposible for anything."
+            f"\n✪ We don't Provide any support to forks,\n  So these terms and conditions not applied to forks \n  If you are using a fork of King bot we are not resposible for anything."
             f"\n\nFor any kind of help, related to this bot, Join @{SUPPORT_CHAT}."
             f"\n\n<i>Terms & Conditions will be changed anytime</i>\n",
             parse_mode=ParseMode.HTML,
