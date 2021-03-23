@@ -180,12 +180,12 @@ def main():
 if __name__ == "__main__":
     main()
 
-__help__ = """
- ⦁ `/transfersh`*:* reply to a telegram file to upload it on transfersh and get direct download link
- ⦁ `/tmpninja`*:* reply to a telegram file to upload it on tmpninja and get direct download link
- • `/up`*:* reply to a direct download link to upload it to telegram as files
+# __help__ = """
+#  ⦁ `/transfersh`*:* reply to a telegram file to upload it on transfersh and get direct download link
+#  ⦁ `/tmpninja`*:* reply to a telegram file to upload it on tmpninja and get direct download link
+#  • `/up`*:* reply to a direct download link to upload it to telegram as files
  
-© @useIes 💞
-"""
+# © @useIes 💞
+# """
 
-__mod_name__ = "Linking"
+# __mod_name__ = "Linking"
