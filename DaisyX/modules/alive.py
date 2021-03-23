@@ -9,15 +9,15 @@ from DaisyX import telethn as tbot
 from DaisyX import telethn as tgbot
 from DaisyX.events import register
 
-PHOTO = "https://telegra.ph/file/c78acfb14cedec2d23c48.jpg"
+PHOTO = "https://telegra.ph/file/b89bdf00bb2dccf4afb51.jpg"
 
 
 @register(pattern=("/alive"))
 async def awake(event):
     koraXname = event.sender.first_name
-    koraX = f"Hello {koraXname}, I am innexia\n\n"
+    koraX = f"Hello {koraXname}, I am King\n\n"
     koraX += "🔸 I'm Working Properly\n\n"
-    koraX += "🔹 Innexia OS : 2.0 LATEST\n\n"
+    koraX += "🔹 King OS : 2.0 LATEST\n\n"
     koraX += f"🔸 My Master {OWNER_USERNAME} ☺️\n\n"
     koraX += "🔹 I'm Updated\n\n"
     koraX += "🔸 Telethon : 1.19.5 latest\n\n"
@@ -36,7 +36,7 @@ async def callback_query_handler(event):
     # inline by kittu5588 🔥
     kittu = [
         [
-            Button.url("REPO", "https://github.com/MrSammyXD"),
+            Button.url("REPO", "https://github.com/"),
             Button.url("REPO-USERBOT", "https://github.com/kora-network/korauserbot"),
         ]
     ]
@@ -54,9 +54,9 @@ async def callback_query_handler(event):
 async def callback_query_handler(event):
     global PHOTO
     koraXname = event.sender.first_name
-    koraX = f" Hello {koraXname}, I'm innexia\n\n"
+    koraX = f" Hello {koraXname}, I'm King\n\n"
     koraX += "🔸 I'm Working Properly\n\n"
-    koraX += "🔹 Innexia OS : 2.0 LATEST\n\n"
+    koraX += "🔹 King OS : 2.0 LATEST\n\n"
     koraX += f"🔸 My Master {OWNER_USERNAME} ☺️\n\n"
     koraX += "🔹 I'm Updated\n\n"
     koraX += "🔸 Telethon : 1.19.5 latest\n\n"
